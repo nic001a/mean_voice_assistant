@@ -1,6 +1,27 @@
 from gtts import gTTS
 from playsound import playsound
+import csv
 
-tts = gTTS(text="Hello motherfucker, I want to tell you that you have a very, very nice ass ", lang="en")
-tts.save("hello.mp3")
-playsound("hello.mp3")
+
+def weather_response():
+    tts = gTTS(
+        text="Stop being a lazy bitch and go check the weather for yourself", lang="en")
+    tts.save("weather.mp3")
+    playsound("weather.mp3")
+
+# weather_response() will take respond according to a certain inpu
+# it will write the response text output the audio and read the audio
+
+
+def small_pp():
+    tts = gTTS(
+        text="Fuck you dumbass I am a super smart robot and I'll come for you", lang="en")
+    tts.save("stupid.mp3")
+    playsound("stupid.mp3")
+
+
+def curse_response(word_here):
+    with open('curse_eng.csv') as csv_file:
+        file_read = csv.reader(csv_file)
+        if word_here in csv_file:
+            small_pp()
