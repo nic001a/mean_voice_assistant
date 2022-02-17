@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import txttospch
+import csv_reader
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
@@ -14,6 +15,8 @@ try:
 
     if 'weather' in query:
         txttospch.weather_response()
+    
+  
 
     txttospch.curse_response(query)
    #this is not working curse rspns 
