@@ -5,7 +5,7 @@ import csv
 
 def weather_response():
     tts = gTTS(
-        text="Stop being a lazy bitch and go check the weather for yourself", lang="en")
+        text="Are you dumb? check the weather for yourself", lang="en")
     tts.save("weather.mp3")
     playsound("weather.mp3")
 

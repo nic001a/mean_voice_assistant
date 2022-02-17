@@ -15,6 +15,7 @@ try:
     if 'weather' in query:
         txttospch.weather_response()
 
-    txttospch.curse_response()
+    txttospch.curse_response(query)
+   #this is not working curse rspns 
 except Exception as e:
     print("BRO STFU")
