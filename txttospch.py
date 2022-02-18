@@ -5,7 +5,11 @@ import csv
 
 def weather_response():
     tts = gTTS(
+<<<<<<< HEAD
         text="help me please !!!", lang="en")
+=======
+        text="HUmanity has spent so many years developing internet machine learning and programming languages and the first you can think about is to ask about the weather ? stick your head out of the window and shut up!", lang="en")
+>>>>>>> 0f9d33ead50c7c0fe0faa0671cecaa6402a6c22e
     tts.save("weather.mp3")
     playsound("weather.mp3")
 
@@ -15,7 +19,7 @@ def weather_response():
 
 def small_pp():
     tts = gTTS(
-        text="Fuck you dumbass I am a super smart robot and I'll come for you", lang="en")
+        text="More real than you", lang="en")
     tts.save("stupid.mp3")
     playsound("stupid.mp3")
 
@@ -26,6 +30,7 @@ def curse_response(word_here):
         if word_here in csv_file:
             small_pp()
 
+<<<<<<< HEAD
 def subscribe():
     tts = gTTS(
     text="Before you leeave consider subscribing and supporting this project on patreon, Motherfucker ", lang="en")
@@ -33,3 +38,11 @@ def subscribe():
     playsound("sub.mp3")
 
 subscribe()
+=======
+
+def roast():
+    tts = gTTS(
+    text="Bob the builder took one look at you and said we cant fix that!", lang="en")
+    tts.save("stupid.mp3")
+    playsound("stupid.mp3")
+>>>>>>> 0f9d33ead50c7c0fe0faa0671cecaa6402a6c22e

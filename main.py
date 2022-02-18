@@ -16,9 +16,13 @@ try:
     if 'weather' in query:
         txttospch.weather_response()
     
-  
+    if 'are you real' in query:
 
-    txttospch.curse_response(query)
+        txttospch.small_pp()
+    if 'roast' in query :
+        txttospch.roast()
+
+        
    #this is not working curse rspns 
 except Exception as e:
     print("BRO STFU")
