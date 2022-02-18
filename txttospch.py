@@ -5,7 +5,7 @@ import csv
 
 def weather_response():
     tts = gTTS(
-        text="Are you dumb? check the weather for yourself", lang="en")
+        text="help me please !!!", lang="en")
     tts.save("weather.mp3")
     playsound("weather.mp3")
 
@@ -25,3 +25,11 @@ def curse_response(word_here):
         file_read = csv.reader(csv_file)
         if word_here in csv_file:
             small_pp()
+
+def subscribe():
+    tts = gTTS(
+    text="Before you leeave consider subscribing and supporting this project on patreon, Motherfucker ", lang="en")
+    tts.save("sub.mp3")
+    playsound("sub.mp3")
+
+subscribe()

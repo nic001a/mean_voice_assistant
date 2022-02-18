@@ -22,3 +22,4 @@ try:
    #this is not working curse rspns 
 except Exception as e:
     print("BRO STFU")
+ 
