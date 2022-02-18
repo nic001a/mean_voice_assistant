@@ -5,7 +5,7 @@ This is a github repo (obviously) made for this project am working on which is a
 # Why 
 
 The reason am building this is for two main reasons:
-* I'm making a video about it find it [**here**](link)
+* I'm making a video about it find it [**here**](https://youtu.be/GFtHGTCX0bc)
 * Learning by doing: I just love learning and the best way to do it is by working on projects 
 * Fun: I might sound like a maniac but problem solving is fun 
 
