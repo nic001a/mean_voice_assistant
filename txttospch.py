@@ -30,7 +30,6 @@ def curse_response(word_here):
         if word_here in csv_file:
             small_pp()
 
-<<<<<<< HEAD
 def subscribe():
     tts = gTTS(
     text="Before you leeave consider subscribing and supporting this project on patreon, Motherfucker ", lang="en")
@@ -38,11 +37,3 @@ def subscribe():
     playsound("sub.mp3")
 
 subscribe()
-=======
-
-def roast():
-    tts = gTTS(
-    text="Bob the builder took one look at you and said we cant fix that!", lang="en")
-    tts.save("stupid.mp3")
-    playsound("stupid.mp3")
->>>>>>> 0f9d33ead50c7c0fe0faa0671cecaa6402a6c22e
